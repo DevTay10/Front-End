@@ -55,6 +55,8 @@ H2 {
     
 }
 
+
+
 .LeftSide{
     
     float: left;
@@ -85,7 +87,7 @@ H2 {
 .RightSide{
     
     
-    float: right;
+    float: left;
     border: 1px black dashed;
     width: 25%;
     background: orange;
@@ -100,6 +102,14 @@ H2 {
     margin-top: 10px;
     
 }
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
 
 P1{
     
