@@ -3,29 +3,33 @@
 body{
     
     font-family: "Roboto", sans-serif;
-    background-color: aliceblue;
 }
 
 
 .Header{
     padding: 30px;
     text-align: center;
-    background-image: linear-gradient(180deg, #FF8D8D 24%, #FDFF8E 92%);
+    border-bottom: 1px #1A1A1A dashed;
+    background: rgba(218, 248, 132, 0.10);
 }
 
 
 .TopNav {    
 
-    background-color: orange;
     display: block flex;
+    background-image: linear-gradient(180deg, rgba(218, 248, 132, 0.36) 0%, rgba(160, 255, 193, 0.36) 106.02%);
+    border-bottom: 1px;
+    border-color: #1A1A1A;
+
     
 }
 
 .TopNav a{
     
     text-align: left;
-    color: black;
+    color: #1A1A1A;
     padding: 15px 20px;
+    display: block;
     text-decoration: none;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -35,9 +39,16 @@ body{
 
 .TopNav a:hover{
     
-    color: #B0B0B0;
+    color: #1A1A1A;
     text-decoration: underline;
+    background-color: rgba(30, 30, 30, 0.27);
     
+}
+
+.Main{
+    
+    
+    background-image: linear-gradient(0deg, rgba(218, 248, 132, 0.36) 0%, rgba(160, 255, 193, 0.36) 106.02%);
 }
 
 
@@ -46,8 +57,13 @@ body{
     
     float: left;
     width: 75%;
-    background: aliceblue;
     
+}
+
+.LeftSide H1{
+    
+    font-style: italic;
+
 }
 
 img{
@@ -60,13 +76,30 @@ img{
 .Box{
     
     margin: 15px;
-    border: 2px red solid;
+    border-right: 2px #B0B0B0 solid;
     padding: 40px;
     
 }
 
 
 .RightSide{
+    
+    width: 25%;
+    float: right;
+    
+}
+
+.MiniBox{
+    
+    width: 99%;
+    
+}
+
+.MiniBox a{
+    
+    color: #1A1A1A;
+    display: block;
+    padding: 5px;
     
 }
 
@@ -76,6 +109,7 @@ img{
   content: "";
   display: table;
   clear: both;
+    
 }
 
 
@@ -84,8 +118,9 @@ P1{
     
     font-family: "Roboto", sans-serif;
     font-weight: 200;
+    font-size: 14px;
     font-style: italic;
-    color: white;
+    color: #1A1A1A;
     
 }
 
@@ -94,15 +129,15 @@ H1{
     
     font-family: sans-serif;
     font-size: 36px;
-    color: #5164C9;
+    color: #9E0000;
     
 }
 
 H2 {
     
     font-family: serif;
-    font-size: 24x;
-    color: aqua;
+    font-size: 24px;
+    color: #1A1A1A;
     
 }
 
