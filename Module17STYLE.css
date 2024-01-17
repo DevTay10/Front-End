@@ -8,6 +8,8 @@
 body{
     
     font-family: "Roboto", sans-serif;
+    margin: 0 5%;
+    background-color: aliceblue;
 }
 
 
@@ -52,7 +54,6 @@ body{
 
 .Main{
     
-    
     background-image: linear-gradient(0deg, rgba(218, 248, 132, 0.36) 0%, rgba(160, 255, 193, 0.36) 106.02%);
 }
 
@@ -71,21 +72,23 @@ body{
 
 }
 
+
+
 .RightSide MiniBox{
     
-    margin: 15px;
+ 
     border-right: 2px #B0B0B0 solid;
-    padding: 40px;
+    padding: 20px;
+
     
     
 }
 
 
-.LeftSide Box{
-    
-    margin: 15px;
-    border-right: 2px #B0B0B0 solid;
-    padding: 40px;
+.Box{
+
+    border: 2px #B0B0B0 solid;
+    padding: 20px;
     
 }
 
