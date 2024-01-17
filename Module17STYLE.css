@@ -1,5 +1,10 @@
 <!doctype CSS>
 
+* {
+  box-sizing: border-box;
+}
+
+
 body{
     
     font-family: "Roboto", sans-serif;
@@ -56,7 +61,7 @@ body{
 .LeftSide{
     
     float: left;
-    width: 75%;
+    width: 74%;
     
 }
 
@@ -66,8 +71,17 @@ body{
 
 }
 
+.RightSide MiniBox{
+    
+    margin: 15px;
+    border-right: 2px #B0B0B0 solid;
+    padding: 40px;
+    
+    
+}
 
-.Box{
+
+.LeftSide Box{
     
     margin: 15px;
     border-right: 2px #B0B0B0 solid;
@@ -96,7 +110,7 @@ ul{
 
 .RightSide{
     
-    width: 25%;
+    width: 24%;
     float: right;
     
 }
@@ -122,6 +136,12 @@ ul{
   clear: both;
     
 }
+
+
+.responsive {
+  width: 100%;
+  height: auto;
+}  
 
 
 
