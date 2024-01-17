@@ -66,18 +66,30 @@ body{
 
 }
 
-img{
-    
-    height: 50%;
-    width: 50%;
-    padding-top: 50px;
-}
 
 .Box{
     
     margin: 15px;
     border-right: 2px #B0B0B0 solid;
     padding: 40px;
+    
+}
+
+.Box P1{
+    
+    padding: 5px;
+    color: #1A1A1A;
+    
+    
+}
+
+ul{
+    
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #1A1A1A;
     
 }
 
@@ -91,7 +103,6 @@ img{
 
 .MiniBox{
     
-    width: 99%;
     
 }
 
