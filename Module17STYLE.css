@@ -15,14 +15,22 @@ body{
 
 .Header{
     padding: 5%;
-    text-align: center;
+    text-align: left;
     border-bottom: 1px #1A1A1A dashed;
+    position: sticky;
 
+}
+
+.Header H2{
+    
+    text-align: left;
+    
 }
 
 .Header img{
     
     float: right;
+
     
 }
 
