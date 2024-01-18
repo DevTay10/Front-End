@@ -9,15 +9,15 @@ body{
     
     font-family: "Roboto", sans-serif;
     margin: 0 5%;
-    background-color: aliceblue;
+    background-color: rgba(218, 248, 132, 0.10);
 }
 
 
 .Header{
-    padding: 30px;
+    padding: 5%;
     text-align: center;
     border-bottom: 1px #1A1A1A dashed;
-    background: rgba(218, 248, 132, 0.10);
+
 }
 
 
@@ -35,7 +35,7 @@ body{
     
     text-align: left;
     color: #1A1A1A;
-    padding: 15px 20px;
+    padding: 1% 2%;
     display: block;
     text-decoration: none;
     font-family: "Roboto", sans-serif;
@@ -63,32 +63,20 @@ body{
     
     float: left;
     width: 74%;
-    
-}
-
-.LeftSide H1{
-    
-    font-style: italic;
-
-}
-
-
-
-.RightSide MiniBox{
-    
- 
     border-right: 2px #B0B0B0 solid;
-    padding: 20px;
-
-    
     
 }
 
 
 .Box{
 
-    border: 2px #B0B0B0 solid;
-    padding: 20px;
+    padding: 2%;
+    
+}
+
+.LeftSide Box{
+    
+    border-right: 2px #B0B0B0 solid;
     
 }
 
@@ -107,6 +95,7 @@ ul{
     font-weight: 400;
     font-style: normal;
     color: #1A1A1A;
+
     
 }
 
@@ -118,17 +107,18 @@ ul{
     
 }
 
-.MiniBox{
-    
-    
-}
 
 .MiniBox a{
     
     color: #1A1A1A;
     display: block;
-    padding: 5px;
+    padding: 1%;
     
+}
+
+.RightSide Box{
+    
+    float: left;
 }
 
 
@@ -147,13 +137,11 @@ ul{
 }  
 
 
-
 P1{
     
     font-family: "Roboto", sans-serif;
     font-weight: 200;
     font-size: 14px;
-    font-style: italic;
     color: #1A1A1A;
     
 }
@@ -178,8 +166,9 @@ H2 {
 
 
 .Footer {
-  padding: 20px;
-  text-align: center;
-  background: #ddd;
-  margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+    position: sticky;
 }
