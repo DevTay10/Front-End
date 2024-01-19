@@ -18,7 +18,7 @@ body{
     text-align: left;
     border-bottom: 1px #1A1A1A dashed;
     position: sticky;
-
+    
 }
 
 .Header H2{
@@ -91,6 +91,7 @@ body{
 .LeftSide Box{
     
     border-right: 2px #B0B0B0 solid;
+    display: flex;
     
 }
 
@@ -125,7 +126,7 @@ ul{
 .MiniBox a{
     
     color: #1A1A1A;
-    display: block;
+    display: flex;
     padding: 1%;
     
 }
