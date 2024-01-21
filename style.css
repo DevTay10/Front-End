@@ -18,6 +18,7 @@ body{
     text-align: left;
     border-bottom: 1px #1A1A1A dashed;
     position: sticky;
+    padding-bottom: 10%;
     
 }
 
@@ -31,6 +32,12 @@ body{
     
     float: right;
 
+    
+}
+
+#Hero{
+    
+    float: left;
     
 }
 
@@ -161,6 +168,15 @@ P1{
     
 }
 
+P2{
+    
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-size: 12px;
+    color: #1A1A1A;
+    
+}
+
 
 H1{
     
@@ -181,9 +197,56 @@ H2 {
 
 
 .Footer {
-    padding: 20px;
-    text-align: center;
+    
+    padding: 1%;
     background: #ddd;
-    margin-top: 20px;
+    margin-top: 1%;
     position: sticky;
 }
+
+#FooterLeft{
+
+    text-align: left;
+    
+}
+
+
+
+#FooterCenter{
+    
+    text-align: center;
+    font-size: 16px;
+    
+}
+
+#FooterRight{
+    
+    text-align: right;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
