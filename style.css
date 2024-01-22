@@ -198,32 +198,12 @@ H2 {
 
 .Footer {
     
-    padding: 1%;
+    padding: 0 1%;
     background: #ddd;
     margin-top: 1%;
     position: sticky;
 }
 
-#FooterLeft{
-
-    text-align: left;
-    
-}
-
-
-
-#FooterCenter{
-    
-    text-align: center;
-    font-size: 16px;
-    
-}
-
-#FooterRight{
-    
-    text-align: right;
-    
-}
 
 
 
